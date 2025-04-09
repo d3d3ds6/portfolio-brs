@@ -87,7 +87,7 @@ const experiences = [
     subtitle: "MappCraft",
     workType: "Part-time Contract",
     workDescription: [
-      "Currently working on the development of a new version of Houni.tn, an innovative real estate platform.",
+      "Worked on the development of a new version of Houni.tn, an innovative real estate platform.",
       "Improving features to streamline property searches and management.",
       "Technologies used: Firebase, Google Cloud, Docker, Git, Nuxt.js 3, TypeScript, Spring Boot, Angular 18, Node.js 18.",
     ],
