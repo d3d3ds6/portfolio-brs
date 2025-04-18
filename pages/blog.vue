@@ -8,9 +8,43 @@
         PROJECTS SECTION
       </h2>
 
-      <!-- Project Card -->
-      <div class="mt-12 flex justify-center">
-        <div class="group relative w-full max-w-xl rounded-xl bg-gray-800 p-6 shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-2">
+      <!-- Project Cards Grid - 2 cards per row -->
+      <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Movie App Project Card -->
+        <div class="group relative w-full rounded-xl bg-gray-800 p-6 shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-2">
+          <h3 class="text-3xl font-bold text-yellow-300">
+            Movie App
+          </h3>
+          <p class="mt-4 text-gray-300">
+            A React application that allows users to search for and view detailed information about movies. Browse popular, upcoming, now playing, and top-rated movies with an intuitive interface.
+          </p>
+          <ul class="mt-4 text-gray-300">
+            <li><strong>Tech Stack:</strong> React, TypeScript, Vite, React Query (Tanstack), TailwindCSS, DaisyUI</li>
+            <li><strong>Features:</strong>
+              <ul class="list-disc pl-6">
+                <li>Search for movies by title</li>
+                <li>View movie details including title, release date, overview, genres, runtime, and rating</li>
+                <li>Browse popular, upcoming, now playing, and top-rated movies</li>
+                <li>View similar movies with horizontal scrolling for better user experience</li>
+                <li>Fully responsive design for mobile and desktop</li>
+              </ul>
+            </li>
+          </ul>
+          <div class="mt-6 flex justify-center space-x-4">
+            <a 
+              target="_blank" 
+              href="https://main-peach-three.vercel.app/" 
+              class="relative inline-block text-center">
+              <span class="absolute inset-0 bg-gradient-to-r from-yellow-300 to-blue-600 rounded-full blur-lg opacity-50"></span>
+              <span class="relative inline-flex h-14 w-48 items-center justify-center rounded-full bg-gray-900 text-white font-semibold hover:bg-gray-700 transition-colors">
+                Live Demo
+              </span>
+            </a>
+          </div>
+        </div>
+
+        <!-- E-Commerce REST API Project Card -->
+        <div class="group relative w-full rounded-xl bg-gray-800 p-6 shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-2">
           <h3 class="text-3xl font-bold text-yellow-300">
             REST API for an E-Commerce Application
           </h3>
@@ -41,6 +75,10 @@
             </a>
           </div>
         </div>
+        
+        <!-- You can add more project cards here -->
+        <!-- They will automatically flow into the next row -->
+        
       </div>
     </section>
   </div>
