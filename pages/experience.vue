@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen bg-gradient-to-br from-yellow-900 to-blue-900 text-yellow-200 flex flex-col items-center justify-center">
-    <h1 class="text-4xl md:text-6xl font-extrabold mb-12">My Experience Timeline</h1>
+    <h1 class="text-4xl md:text-6xl font-extrabold mb-12 mt-8">My Experience Timeline</h1>
 
     <div class="relative w-full max-w-4xl">
       <!-- Vertical line -->
@@ -72,15 +72,15 @@ const timelineItemRefs = ref<HTMLElement[]>([]);
 const experiences = [
   {
     title: "Software Engineer",
-    subtitle: "DGTAL",
-    workType: "Internship",
+    subtitle: "MappCraft",
+    workType: "Full-time Contract (Remote)",
     workDescription: [
-      "Developed a centralized platform to enhance business listing management in Tunisia, addressing the needs of users and business owners.",
-      "Implemented secure user authentication, business submission and management, admin dashboard, and search functionality.",
-      "Worked remotely as part of a Scrum team, achieving project milestones across multiple sprints.",
-      "Technologies used: Firebase, Google Cloud, Docker, Git, Nuxt.js 3, Bootstrap, TypeScript, Spring Boot.",
+      "Code Postale Tunisie - Postal code search engine covering 24 governorates, 1,500+ codes with interactive mapping and location intelligence for address verification.",
+      "MappCraft Platform - Digital solutions provider offering cloud optimization, technical auditing, project management and agile development expertise.",
+      "TMaps API & Backend - Tunisian Google Maps alternative with 92% cost reduction, geocoding/routing services, 100% uptime, Dinar payment, and scalable infrastructure supporting millions of daily requests.",
+      "Technologies used: Firebase, Google Cloud, Docker, Git, Nuxt.js 3, TypeScript, Spring Boot, Angular 18, Node.js 18.",
     ],
-    dateText: "May 2024 – September 2024",
+    dateText: "June 2025 – September 2025 (Current)",
   },
   {
     title: "Software Engineer",
@@ -91,7 +91,19 @@ const experiences = [
       "Improving features to streamline property searches and management.",
       "Technologies used: Firebase, Google Cloud, Docker, Git, Nuxt.js 3, TypeScript, Spring Boot, Angular 18, Node.js 18.",
     ],
-    dateText: "October 2024 – March 2025",
+    dateText: "October 2024 – May 2025",
+  },
+  {
+    title: "Software Engineer",
+    subtitle: "DGTAL",
+    workType: "Internship",
+    workDescription: [
+      "Developed a centralized platform to enhance business listing management in Tunisia, addressing the needs of users and business owners.",
+      "Implemented secure user authentication, business submission and management, admin dashboard, and search functionality.",
+      "Worked remotely as part of a Scrum team, achieving project milestones across multiple sprints.",
+      "Technologies used: Firebase, Google Cloud, Docker, Git, Nuxt.js 3, Bootstrap, TypeScript, Spring Boot.",
+    ],
+    dateText: "May 2024 – September 2024",
   },
 ];
 

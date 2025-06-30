@@ -75,14 +75,50 @@
             </a>
           </div>
         </div>
-        
-        <!-- You can add more project cards here -->
-        <!-- They will automatically flow into the next row -->
+
+        <!-- Zara E-Commerce Project Card -->
+        <div class="group relative w-full rounded-xl bg-gray-800 p-6 shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-2">
+          <h3 class="text-3xl font-bold text-yellow-300">
+            Zara E-Commerce Website
+          </h3>
+          <p class="mt-4 text-gray-300">
+            A complete e-commerce solution for clothing and jewelry, built with PHP and MySQL. Features user authentication, shopping cart, checkout process, and admin panel for managing products and orders.
+          </p>
+          <ul class="mt-4 text-gray-300">
+            <li><strong>Tech Stack:</strong> PHP, MySQL, HTML5, CSS3, JavaScript, Bootstrap</li>
+            <li><strong>Features:</strong>
+              <ul class="list-disc pl-6">
+                <li>User authentication with secure sessions and hashed passwords</li>
+                <li>Product browsing and filtering by category</li>
+                <li>Shopping cart functionality with quantity adjustment</li>
+                <li>Checkout process with shipping and payment information</li>
+                <li>Admin panel for managing products, categories, orders, and users</li>
+                <li>Responsive design for all devices</li>
+                <li>Security features with prepared statements and input sanitization</li>
+              </ul>
+            </li>
+          </ul>
+          <div class="mt-6 flex justify-center">
+            <a 
+              target="_blank" 
+              href="https://github.com/d3d3ds6/zara-new" 
+              class="relative inline-block text-center">
+              <span class="absolute inset-0 bg-gradient-to-r from-yellow-300 to-blue-600 rounded-full blur-lg opacity-50"></span>
+              <span class="relative inline-flex h-14 w-48 items-center justify-center rounded-full bg-gray-900 text-white font-semibold hover:bg-gray-700 transition-colors">
+                View on GitHub
+              </span>
+            </a>
+          </div>
+        </div>
         
       </div>
     </section>
   </div>
 </template>
+
+<script setup>
+// Removed all gallery-related code since it's no longer needed
+</script>
 
 <style scoped>
 /***** Add custom styles here *****/
