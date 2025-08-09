@@ -79,7 +79,7 @@
         <!-- Zara E-Commerce Project Card -->
         <div class="group relative w-full rounded-xl bg-gray-800 p-6 shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-2">
           <h3 class="text-3xl font-bold text-yellow-300">
-            Zara E-Commerce Website
+            Zara Clone Website
           </h3>
           <p class="mt-4 text-gray-300">
             A complete e-commerce solution for clothing and jewelry, built with PHP and MySQL. Features user authentication, shopping cart, checkout process, and admin panel for managing products and orders.
