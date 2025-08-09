@@ -7,7 +7,7 @@
     <h2 class="text-4xl md:text-5xl">
       Hi, I'm Abderahmen Brinis <br />
       — <br />
-      Passionate Software Engineer
+      Passionate AI & Data Science Engineer
     </h2>
     <h1 class="py-12 text-6xl md:text-[8rem] lg:text-[9rem]">
       Crafting
@@ -39,7 +39,7 @@
   >
     Aspiring
     <span class="font-extrabold text-yellow-100">
-      software engineer in the making
+      AI & Data Science engineer in the making
     </span>
     with a strong dedication to learning and growing in modern technologies.
     Building skills in languages like Java, TypeScript, Python, C and frameworks
@@ -262,7 +262,7 @@
         <a
           target="_blank"
           class="flex h-14 w-48 flex-row items-center justify-center bg-gray-950 text-2xl font-bold uppercase tracking-widest"
-          href="https://drive.google.com/file/d/15bDXF32bvu1Y6RyiWvpsq8BiRGsyEHCn/view?usp=sharing
+          href="https://drive.google.com/file/d/1_tGNPpGkCLq_pKfJm57wktDKcyodSzvc/view?usp=sharing
 "
           ><img
             class="mr-4 w-8"
