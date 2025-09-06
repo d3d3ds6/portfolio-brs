@@ -262,7 +262,7 @@
         <a
           target="_blank"
           class="flex h-14 w-48 flex-row items-center justify-center bg-gray-950 text-2xl font-bold uppercase tracking-widest"
-          href="https://drive.google.com/file/d/1_tGNPpGkCLq_pKfJm57wktDKcyodSzvc/view?usp=sharing
+          href="https://drive.google.com/file/d/1Ix4RAlnb_9oT6uZBjq1xn52UMUf1nk2v/view?usp=sharing
 "
           ><img
             class="mr-4 w-8"
